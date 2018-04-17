@@ -1,0 +1,22 @@
+.carousel{
+    text-align: center;
+}
+.window{
+    /* border: 5px solid blue; */
+    width: 300px;
+    margin: 0 auto;
+    /* 其余图片隐藏*/
+    overflow:hidden;
+}
+.images{
+    display: flex;
+
+    /* border: 4px solid red; */
+    /*使元素横起来 并且元素不变型*/
+    align-items:flex-start;
+    transform:translateX(0px);
+    transition:transform 0.5s
+}
+.red{
+    color:red;
+}

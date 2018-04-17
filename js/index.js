@@ -1,0 +1,23 @@
+$(button1).on('click',function(){
+    console.log(1);
+    $(images).css({
+        transform:'translateX(0px)'
+    });
+    console.log(2);
+});
+$(button2).on('click',function(){
+    $(images).css({
+        transform:'translateX(-300px)'
+    });
+});
+$(button3).on('click',function(){
+    $(images).css({
+        transform:'translateX(-600px)'
+    });
+});
+$(button4).on('click',function(){
+    $(images).css({
+        transform:'translate(-900px)'
+    });
+});
+
